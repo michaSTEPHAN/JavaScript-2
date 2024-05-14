@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------------------------------- */
+/* Gestion de l'affichage des 2 lignes de carrés        */
+/* ---------------------------------------------------- */
+.ligne1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.ligne2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ---------------------------------------------------- */
+/* Gestion de l'affichage des 4 carrés                  */
+/* ---------------------------------------------------- */
+.carre1 {
+    background-color: rgb(104, 207, 113);
+    color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 1s;
+}
+.carre2 {
+    background-color: rgb(104, 207, 113);
+    color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 1s;
+}
+.carre3 {
+    background-color: rgb(104, 207, 113);
+    color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 1s;
+}
+.carre4 {
+    background-color: rgb(104, 207, 113);
+    color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 1s;
+}
+
+/* ---------------------------------------------------- */
+/* Gestion de la rotation des 4 carrés                  */
+/* ---------------------------------------------------- */
+.rotation1 {
+    transform: scale(0.9) rotate(360deg);
+}
+.rotation2 {
+    transform: scale(1) rotate(-360deg);
+}
