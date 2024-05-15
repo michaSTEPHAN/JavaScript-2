@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------------------------------- */
+/* Gestion du fond d'ecran de la home page              */
+/* ---------------------------------------------------- */
+main {
+    background-color: darkgray;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ---------------------------------------------------- */
+/* Gestion de l'affichage de la ligne de carrés         */
+/* ---------------------------------------------------- */
+.ligne {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 200px;
+}
+
+/* ---------------------------------------------------- */
+/* Gestion de l'affichage des 3 carrés                  */
+/* ---------------------------------------------------- */
+.facebook {
+    background-color: rgb(67,96,156);
+    color: rgb(67,96,156);
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-color: bisque;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 1s;
+}
+.twitter {
+    background-color: rgb(108,173,222);
+    color: rgb(108,173,222);
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-color: bisque;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 1s;
+}
+.instagram {
+    background-color: rgb(225, 48, 108);
+    color: rgb(225, 48, 108);;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-color: bisque;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 1s;
+}
+
+/* ---------------------------------------------------- */
+/* Gestion de l'affichage des 3 icones                  */
+/* ---------------------------------------------------- */
+.imgFacebook {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.imgTwitter {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.imgInstagram {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ---------------------------------------------------- */
+/* Gestion de la modification des 3 carrés              */
+/* ---------------------------------------------------- */
+ .transformation1 {
+    border-radius: 20px;
+    color: white;
+    box-shadow: 8px 8px 12px #aaa;
+    transform: rotate(360deg);     
+}
